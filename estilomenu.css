@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #62138a;
+    color: #c70bbb;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #ad0493;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.menu {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.seccion {
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    color: #62138a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #62138a;
+    color: #d3c2da;
+    padding: 10px;
+    text-align: center;
+}

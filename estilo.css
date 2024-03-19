@@ -1,0 +1,40 @@
+/* Reset de estilos básicos */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3; /* Color de fondo de la página */
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #62138a;
+    color: #d3c2da;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo de la barra de navegación */
+nav {
+    display: flex;
+}
+
+/* Estilo de los enlaces de navegación */
+nav a {
+    color: #571cfa9c;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    max-width: 20px; /* Ajusta el ancho máximo del logo */
+    max-height: auto; /* Ajusta la altura máxima del logo */
+    margin-right: 15px;
+}

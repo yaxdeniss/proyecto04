@@ -1,0 +1,73 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #881e88;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0 15px;
+    line-height: 50px;
+}
+
+.contacto, .formulario {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contacto h2, .formulario h2 {
+    margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #0056b3;
+}
